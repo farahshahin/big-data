@@ -1,0 +1,1 @@
+task graph z accumulator z Lineage in dataframe this job Yarn model reduce by executor query Batch is z Mllib value Broadcast cluster with Stream as json parquet kafka executor it Hdfs q stage in cache dataset on q

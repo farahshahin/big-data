@@ -1,0 +1,11 @@
+[debug] > Exec(Rename-Item ".\output" "output_old", None, None)
+[error] Expected ID character
+[error] Not a valid command: Rename-Item
+[error] Expected project ID
+[error] Expected configuration
+[error] Expected ':'
+[error] Expected key
+[error] Not a valid key: Rename-Item (similar: name)
+[error] Rename-Item ".\output" "output_old"
+[error]            ^
+[debug] > Exec(idea-shell, None, None)

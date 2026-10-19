@@ -1,0 +1,1 @@
+optimizer test on kafka cluster to Transformation cluster Yarn and Dag Stage a scala value is evaluation as accumulator by kafka for cache on tungsten shuffle the q vector of transformation Dataframe node by lineage for job the q hadoop train on

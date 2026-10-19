@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="docsimilarity [file:///C:/Users/farah/Downloads/hw_rdd_starter_kit%20(1)/DocSimilarity/]" external.linked.project.path="C:\Users\farah\Downloads\hw_rdd_starter_kit (1)\DocSimilarity" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="SBT" type="JAVA_MODULE" version="4">
+  <component name="DisplayModuleName">
+    <option name="name" value="docsim" />
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_25" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../..">
+      <excludeFolder url="file://$MODULE_DIR$/../../../target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="docsim.main" />
+    <orderEntry type="module" module-name="docsim.test" production-on-test="" />
+  </component>
+</module>

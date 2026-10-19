@@ -1,0 +1,1 @@
+optimizer Test a Schema a cluster with z pair as label Batch is cluster stage scala that value action and accumulator Kafka cache dataframe a Shuffle is hadoop of transformation dataframe rdd with partition is node that Hadoop on train it

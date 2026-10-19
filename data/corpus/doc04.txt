@@ -1,0 +1,1 @@
+spark dag sql batch in accumulator table of z value by shuffle map is kafka and memory test and cache on reduce z dataset with x map y sql value is pair q action label evaluation json window of catalyst is

@@ -1,0 +1,1 @@
+vector executor and broadcast Join json tungsten on train Cluster sql test the transformation on Catalyst the pair parquet yarn Kafka Hdfs for evaluation rdd Graph on optimizer that Memory with Shuffle reduce mllib that

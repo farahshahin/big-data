@@ -1,0 +1,133 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:/Users/farah/AppData/Local/Temp/idea1248215582670602137.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:/Users/farah/AppData/Local/Temp/idea1248215582670602137.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.12.13 (Eclipse Adoptium Java 21.0.12.1)
+[debug]       Load.loadUnit: plugins took 301.2279ms
+[debug]       Load.loadUnit: defsScala took 0.8234ms
+[debug] [Loading] Scanning directory C:\Users\farah\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\farah\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 52.0345 ms
+[debug]           Load.resolveProject(global-plugins) took 109.0228ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\farah\.sbt\1.0\plugins, plugins: List(<none>))) took 207.1305ms
+[debug] [Loading] Done in C:\Users\farah\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 264.6605ms
+[debug]       Load.loadUnit: cleanEvalClasses took 1.3819ms
+[debug]     Load.loadUnit(file:/C:/Users/farah/.sbt/1.0/plugins/, ...) took 595.2843ms
+[debug]   Load.apply: load took 943.9156ms
+[debug]   Load.apply: resolveProjects took 7.7779ms
+[debug]   Load.apply: finalTransforms took 106.8084ms
+[debug]   Load.apply: config.delegates took 25.1311ms
+[debug]   Load.apply: Def.make(settings)... took 876.4675ms
+[debug]   Load.apply: structureIndex took 178.5038ms
+[debug]   Load.apply: mkStreams took 3.262ms
+[info] loading global plugins from C:\Users\farah\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 7725.3658ms
+[debug]           Load.loadUnit: plugins took 26.8955ms
+[debug]           Load.loadUnit: defsScala took 0.0028ms
+[debug] [Loading] Scanning directory C:\Users\farah\Downloads\hw_rdd_starter_kit (1)\DocSimilarity\project
+[debug]             Load.loadUnit: mkEval took 8.4036ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\farah\Downloads\hw_rdd_starter_kit (1)\DocSimilarity\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.3169 ms
+[info] loading settings for project docsimilarity-build from idea1248215582670602137.sbt...
+[debug]               Load.resolveProject(docsimilarity-build) took 4.7706ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id docsimilarity-build, base: C:\Users\farah\Downloads\hw_rdd_starter_kit (1)\DocSimilarity\project, plugins: List(<none>))) took 7.73ms
+[debug] [Loading] Done in C:\Users\farah\Downloads\hw_rdd_starter_kit (1)\DocSimilarity\project, returning: (docsimilarity-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 3926.8774ms
+[debug]           Load.loadUnit: cleanEvalClasses took 14.5937ms
+[debug]         Load.loadUnit(file:/C:/Users/farah/Downloads/hw_rdd_starter_kit%20(1)/DocSimilarity/project/, ...) took 3969.4934ms
+[debug]       Load.apply: load took 3972.0097ms
+[debug]       Load.apply: resolveProjects took 0.1589ms
+[debug]       Load.apply: finalTransforms took 13.9762ms
+[debug]       Load.apply: config.delegates took 0.7047ms
+[debug]       Load.apply: Def.make(settings)... took 128.7793ms
+[debug]       Load.apply: structureIndex took 55.1211ms
+[debug]       Load.apply: mkStreams took 0.0046ms
+[info] loading project definition from C:\Users\farah\Downloads\hw_rdd_starter_kit (1)\DocSimilarity\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 5365.0182ms
+[debug]     Load.loadUnit: defsScala took 0.0048ms
+[debug] [Loading] Scanning directory C:\Users\farah\Downloads\hw_rdd_starter_kit (1)\DocSimilarity
+[debug]       Load.loadUnit: mkEval took 0.8992ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\farah\Downloads\hw_rdd_starter_kit (1)\DocSimilarity, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.GenerateAllManagedSourcesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.SbtSourcesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.GenerateAllManagedSourcesPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.SbtSourcesPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,org.jetbrains.sbt.GenerateAllManagedSourcesPlugin,sbt.plugins.SemanticdbPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,org.jetbrains.sbt.SbtSourcesPlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 4.3659 ms
+[info] loading settings for project docsimilarity from build.sbt...
+[debug]         Load.resolveProject(docsimilarity) took 118.3621ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id docsimilarity, base: C:\Users\farah\Downloads\hw_rdd_starter_kit (1)\DocSimilarity, plugins: List(<none>))) took 123.8571ms
+[debug] [Loading] Done in C:\Users\farah\Downloads\hw_rdd_starter_kit (1)\DocSimilarity, returning: (docsimilarity)
+[debug]     Load.loadUnit: loadedProjectsRaw took 4029.3811ms
+[debug]     Load.loadUnit: cleanEvalClasses took 63.3035ms
+[debug]   Load.loadUnit(file:/C:/Users/farah/Downloads/hw_rdd_starter_kit%20(1)/DocSimilarity/, ...) took 9459.1193ms
+[debug] Load.apply: load took 9463.0764ms
+[debug] Load.apply: resolveProjects took 0.5334ms
+[debug] Load.apply: finalTransforms took 55.1624ms
+[debug] Load.apply: config.delegates took 0.7701ms
+[debug] Load.apply: Def.make(settings)... took 145.699ms
+[debug] Load.apply: structureIndex took 55.7439ms
+[debug] Load.apply: mkStreams took 0.0051ms
+[info] set current project to docsim (in build file:/C:/Users/farah/Downloads/hw_rdd_starter_kit%20(1)/DocSimilarity/)
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(idea-shell, None, None)

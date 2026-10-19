@@ -1,0 +1,1 @@
+stream Executor broadcast tungsten as test q tungsten join x cluster sql with test z transformation Catalyst pair it graph batch Accumulator hdfs with Evaluation this rdd window executor the spark that shuffle this reduce mllib

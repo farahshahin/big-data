@@ -1,0 +1,1 @@
+task Graph accumulator scala Dataframe job Yarn disk partition executor memory the batch spark y Cluster a Catalyst Cluster by stream z Json parquet kafka in Stage this hdfs it stage a lazy and Dataset on z
