@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="sbt: io.dropwizard.metrics:metrics-graphite:4.2.37:jar" type="java-imported" external-system-id="SBT">
+    <properties groupId="io.dropwizard.metrics" artifactId="metrics-graphite" version="4.2.37" baseVersion="4.2.37" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/io/dropwizard/metrics/metrics-graphite/4.2.37/metrics-graphite-4.2.37.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/io/dropwizard/metrics/metrics-graphite/4.2.37/metrics-graphite-4.2.37-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

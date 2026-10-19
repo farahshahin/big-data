@@ -4,8 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/DocSimilarity/docsim.iml" filepath="$PROJECT_DIR$/.idea/modules/DocSimilarity/docsim.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/DocSimilarity/docsim.docsim-build.iml" filepath="$PROJECT_DIR$/.idea/modules/DocSimilarity/docsim.docsim-build.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DocSimilarity/docsim.main.iml" filepath="$PROJECT_DIR$/.idea/modules/DocSimilarity/docsim.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DocSimilarity/docsim.test.iml" filepath="$PROJECT_DIR$/.idea/modules/DocSimilarity/docsim.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/big-data/docsim.main~1.iml" filepath="$PROJECT_DIR$/.idea/modules/big-data/docsim.main~1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/big-data/docsim.test~1.iml" filepath="$PROJECT_DIR$/.idea/modules/big-data/docsim.test~1.iml" />
     </modules>
   </component>
 </project>

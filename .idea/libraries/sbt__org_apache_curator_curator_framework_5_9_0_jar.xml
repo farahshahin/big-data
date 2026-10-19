@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="sbt: org.apache.curator:curator-framework:5.9.0:jar" type="java-imported" external-system-id="SBT">
+    <properties groupId="org.apache.curator" artifactId="curator-framework" version="5.9.0" baseVersion="5.9.0" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/curator/curator-framework/5.9.0/curator-framework-5.9.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/curator/curator-framework/5.9.0/curator-framework-5.9.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

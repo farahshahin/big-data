@@ -7,8 +7,8 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
           <set>
-            <option value="C:\Users\farah\Downloads\hw_rdd_starter_kit (1)\DocSimilarity" />
-            <option value="C:\Users\farah\Downloads\hw_rdd_starter_kit (1)\DocSimilarity\project" />
+            <option value="C:\Users\farah\big-data" />
+            <option value="C:\Users\farah\big-data\project" />
           </set>
         </option>
         <option name="sbtVersion" value="1.12.13" />

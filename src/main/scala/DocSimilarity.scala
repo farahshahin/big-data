@@ -1,4 +1,3 @@
-
 package com.example.docsimilarity
 
 import org.apache.spark.{SparkConf, SparkContext}
@@ -32,7 +31,7 @@ object DocSimilarity {
     val sc = new SparkContext(conf)
 
     try {
-      // Read stopwords and create a Set
+      // Read stopwords and broadcast them
       val stopWords = sc.textFile(stopwordsPath)
         .map(_.trim.toLowerCase(Locale.ROOT))
         .filter(_.nonEmpty)
@@ -41,7 +40,7 @@ object DocSimilarity {
 
       val stopWordsBc = sc.broadcast(stopWords)
 
-      // Task 1: RDD[(fileName, content)]
+      // Task 1: Read documents as (fileName, content)
       val docs = sc.wholeTextFiles(inputDir)
         .map {
           case (path, content) =>
@@ -49,11 +48,11 @@ object DocSimilarity {
         }
         .cache()
 
-      // Task 2: RDD[(fileName, List[token])]
+      // Task 2: Preprocess documents
       val tokens = docs.mapValues { content =>
         content
           .toLowerCase(Locale.ROOT)
-          .split("\\W+")
+          .split("\\s+")
           .iterator
           .filter(_.nonEmpty)
           .filterNot(stopWordsBc.value.contains)
@@ -61,9 +60,24 @@ object DocSimilarity {
           .toList
       }.cache()
 
-      // Task 3: RDD[(d1, d2, score)] with d1 < d2
+      // Print token lists for two selected documents
+      println("=== Preprocessed Token Lists ===")
+
+      val selectedTokens = tokens
+        .filter { case (name, _) =>
+          name == "doc01.txt" || name == "doc02.txt"
+        }
+        .collect()
+        .sortBy(_._1)
+
+      selectedTokens.foreach { case (name, words) =>
+        println(s"$name: ${words.mkString("[", ", ", "]")}")
+      }
+
+      // Task 3: Convert token lists to sets
       val tokenSets = tokens.mapValues(_.toSet).cache()
 
+      // Generate unique document pairs and calculate Jaccard scores
       val scores = tokenSets
         .cartesian(tokenSets)
         .filter {
@@ -74,7 +88,8 @@ object DocSimilarity {
             (d1, d2, jaccard(setA, setB))
         }
 
-      // Task 4: Top 20, highest score first
+      // Task 4: Select top 20 scores
+      // Highest score first, then d1 and d2 ascending
       val ordering =
         Ordering.by[(String, String, Double),
           (Double, String, String)] {
@@ -84,14 +99,17 @@ object DocSimilarity {
 
       val top20 = scores.takeOrdered(20)(ordering)
 
-      // Format: d1,d2,score
+      // Format scores to four decimal places
       val output = top20.map {
         case (d1, d2, score) =>
           f"$d1,$d2,$score%.4f"
       }
 
+      // Print the complete top 20 results
+      println("=== Top 20 Similar Document Pairs ===")
       output.foreach(println)
 
+      // Save results as a single part file
       sc.parallelize(output.toSeq, 1)
         .saveAsTextFile(outputDir)
 

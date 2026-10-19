@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="sbt: com.google.protobuf:protobuf-java:4.33.0:jar" type="java-imported" external-system-id="SBT">
+    <properties groupId="com.google.protobuf" artifactId="protobuf-java" version="4.33.0" baseVersion="4.33.0" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/4.33.0/protobuf-java-4.33.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/4.33.0/protobuf-java-4.33.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

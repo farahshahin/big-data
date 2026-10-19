@@ -2,6 +2,6 @@
 <project version="4">
   <component name="ScalaCompilerConfiguration">
     <option name="separateProdTestSources" value="true" />
-    <profile name="sbt 1" modules="docsim,docsim.main,docsim.test,docsimilarity_5176,docsimilarity_5176.main,docsimilarity_5176.test" />
+    <profile name="sbt 1" modules="docsim,docsim.main,docsim.main~1,docsim.test,docsim.test~1,docsimilarity_5176,docsimilarity_5176.main,docsimilarity_5176.test" />
   </component>
 </project>

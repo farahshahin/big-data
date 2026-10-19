@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="sbt: org.apache.xbean:xbean-asm9-shaded:4.30:jar" type="java-imported" external-system-id="SBT">
+    <properties groupId="org.apache.xbean" artifactId="xbean-asm9-shaded" version="4.30" baseVersion="4.30" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/xbean/xbean-asm9-shaded/4.30/xbean-asm9-shaded-4.30.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/xbean/xbean-asm9-shaded/4.30/xbean-asm9-shaded-4.30-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

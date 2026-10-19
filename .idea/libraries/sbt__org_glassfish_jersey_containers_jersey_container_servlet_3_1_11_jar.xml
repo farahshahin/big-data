@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="sbt: org.glassfish.jersey.containers:jersey-container-servlet:3.1.11:jar" type="java-imported" external-system-id="SBT">
+    <properties groupId="org.glassfish.jersey.containers" artifactId="jersey-container-servlet" version="3.1.11" baseVersion="3.1.11" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet/3.1.11/jersey-container-servlet-3.1.11.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet/3.1.11/jersey-container-servlet-3.1.11-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

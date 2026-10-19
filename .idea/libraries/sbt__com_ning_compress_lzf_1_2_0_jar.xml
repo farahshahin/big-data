@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="sbt: com.ning:compress-lzf:1.2.0:jar" type="java-imported" external-system-id="SBT">
+    <properties groupId="com.ning" artifactId="compress-lzf" version="1.2.0" baseVersion="1.2.0" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/ning/compress-lzf/1.2.0/compress-lzf-1.2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/ning/compress-lzf/1.2.0/compress-lzf-1.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
